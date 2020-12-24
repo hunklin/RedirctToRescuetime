@@ -1,6 +1,7 @@
 <HTML>
 <script>
 var Today=new Date();
+Today.setTime(Today.getTime()-24*60*60*1000);
 location.href='https://www.rescuetime.com/browse/categories/by/rank/for/the/day/of/'+Today.getFullYear()+'-'+(Today.getMonth()+1)+'-'+Today.getDate();
 </script>
 </HTML>
